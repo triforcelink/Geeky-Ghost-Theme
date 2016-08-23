@@ -1,0 +1,6 @@
+{{!< default}}
+<h1>{{@blog.title}}</h1>
+<p>{{@blog.description}}</p>
+{{#foreach posts}}
+<a href="{{url}}"><h4>{{title}}</h4></a>
+{{/foreach}}
