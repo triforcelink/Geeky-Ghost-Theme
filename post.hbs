@@ -1,11 +1,6 @@
 {{!< default}}
-
-<hr/>
 {{#post}}
 <h3>{{title}}</h3>
 <p>Published: {{date published_at format="MMMM, YYYY"}}</p>
-{{#if updated_at}}
-	<p>Updated: {{date updated_at format="MMMM YYYY"}}</p>
-{{/if}}
 {{content}}
 {{/post}}
